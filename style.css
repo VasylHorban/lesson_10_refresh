@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'Thintel';
+    src: url('font/19783.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body{
+    font-family: 'thintel';
+    color: #03d0c8;
+    background: #101010;
+}
+h1,h2,h3{
+    letter-spacing: 3px;
+}
+p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'thintel'
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+button:focus {
+    outline: none;
+
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer
+}
+
+.time-container{
+/*    width: 99%;*/
+    margin: 0 auto;
+    border: 1px solid #4f6f83;
+    margin: 20px;
+    padding: 15px 0;
+    background: #0a1840
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.block{
+    text-align: center
+}
+.stopwatch-container{
+    display: flex;
+    justify-content: space-around;
+}
+.out-block{
+    border: 1px solid #766fcb;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.timer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-container {
+    margin-top: 40px;
+}
+.timer-btn-container{
+    margin-top: 20px;
+}
+.btn{
+    border: 1px solid #989898;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Thintel';
+    color: #03d0c8;
+    margin-right: 5px;
+}
+.btn:hover{
+    background: #0a1840
+}
+.btn:active{
+    background: #8b8a8a
+}

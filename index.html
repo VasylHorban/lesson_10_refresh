@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/19783.ttf">
+</head>
+<body>
+    <div class="time-container">
+        <div class="container">
+            <div class="block">
+                <p id="date">22.02.2020</p>
+                <h1 id="clock-time">21:00:11</h1>
+            </div>
+        </div>
+    </div>
+    <div class="time-container">
+        <div class="container">
+            <div class="stopwatch-container">
+                <div class="stopwatch block">
+                    <h3 id="stopwatch-time">00:00:00:000</h3>
+                    <div class="btn-container">
+                        <button id="stopwatch-start" class="btn">START</button>
+                        <button id="stopwatch-loop" class="btn">LOOP</button>
+                        <button id="stopwatch-stop" class="btn">STOP</button>
+                        <button id="stopwatch-reset" class="btn">RESET</button>
+                    </div>
+                </div>
+                <div class="out-block" id="stopwatch-out"></div>
+            </div>
+        </div>
+    </div>
+    <div class="time-container">
+        <div class="container">
+            <div class="timer-container block">
+                <div class="set-timer">
+                    <h2 id="set-timer-minutes">25</h2>
+                    <p>MINUTES</p>
+                    <div class="timer-btn-container">
+                        <button id="plus" class="btn">+</button>
+                        <button id="minus" class="btn">-</button>
+                    </div>
+                </div>
+                <div class="timer-out block">
+                    <h2 id='timer-time'>00:00</h2>
+                    <div class="btn-container">
+                        <button id="timer-start" class="btn">START</button>
+                        <button id="timer-stop" class="btn">STOP</button>
+                        <button id="timer-reset" class="btn">RESET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
