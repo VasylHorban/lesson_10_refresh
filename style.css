@@ -67,6 +67,7 @@ button {
     width: 300px;
     padding: 10px;
     font-size: 20px;
+    overflow: hidden
 }
 
 .timer-container{
@@ -93,4 +94,9 @@ button {
 }
 .btn:active{
     background: #8b8a8a
+}
+#stopwatch-time span{
+    display: inline-block;
+    width: 35px;
+    text-align: center
 }
